@@ -1,0 +1,50 @@
+div1,
+div2,
+div3 {
+  padding: 10px;
+}
+
+.pg1,
+.pg2,
+.pg3 {
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.circles {
+  text-align: center;
+}
+.circle {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px 15px;
+}
+.light-bulb {
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  background-color: lightgray;
+}
+.light {
+  width: 150px;
+  height: 30px;
+}
+.lightact {
+  background-color: yellow;
+}
+.darkact {
+  background-color: gray;
+}
+.endact {
+  display: none;
+}
